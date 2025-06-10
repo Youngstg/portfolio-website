@@ -1,6 +1,7 @@
 import React from 'react';
 import { Mail, Github, Linkedin } from 'lucide-react';
-import { contactInfo, personalInfo } from '../utils/constants';
+import { contactInfo } from '../utils/constants';
+import { personalInfo } from '../data/personal';
 
 const Contact = () => {
   const iconComponents = {
